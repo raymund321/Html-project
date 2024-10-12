@@ -1,0 +1,60 @@
+/* twicetreasured0_.html code */
+body{
+    background-image: url(light.jpg);
+}
+.sixtyfour-convergence-uniquifier {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 41,
+      "XELA" 0,
+      "YELA" 0;
+  } 
+h1 {
+    color: black;
+    text-align: center;
+}
+h1:hover{
+    color: red;
+}
+h2{
+    color: black;
+}
+h2:hover{
+    color: red;
+}
+.img2{
+    align-items: center;
+    border: 10px solid;
+    background-color: pink;
+}    
+.img3{
+    align-items: center;
+    border: 10px solid;
+    margin-left: 50px;
+    background-color: pink;
+}
+.img4{
+    align-items: center;
+    border: 10px solid;
+    margin-left: 50px;
+    background-color: pink;
+
+}
+.img5{
+    background-color: orange;
+}
+.img2:hover{
+    content: url(sup2.jpg);
+}
+.img3:hover{
+    content: url(brasil2.jpg)
+}
+.img4:hover{
+    content: url(fly2.jpg);
+}
+
+
