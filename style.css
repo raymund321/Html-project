@@ -22,6 +22,7 @@ h1:hover{
 }
 h2{
     color: black;
+    text-align: center;
 }
 h2:hover{
     color: red;
@@ -30,17 +31,18 @@ h2:hover{
     align-items: center;
     border: 10px solid;
     background-color: pink;
+    
 }    
 .img3{
     align-items: center;
     border: 10px solid;
-    margin-left: 50px;
+    margin-left: 185px;
     background-color: pink;
 }
 .img4{
     align-items: center;
     border: 10px solid;
-    margin-left: 50px;
+    margin-left: 150px;
     background-color: pink;
 
 }
@@ -56,5 +58,15 @@ h2:hover{
 .img4:hover{
     content: url(fly2.jpg);
 }
-
+.button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+.button:hover {
+    background-color: #0056b3;
+}
 
