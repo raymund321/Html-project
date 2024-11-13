@@ -1,63 +1,171 @@
-/* twicetreasured0_.html code */
-body{
-    background-image: url(light.jpg);
+/* Global body style */
+body {
+    background-color: w;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
-.sixtyfour-convergence-uniquifier {
-    font-family: "Sixtyfour Convergence", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "BLED" 0,
-      "SCAN" 41,
-      "XELA" 0,
-      "YELA" 0;
-  } 
-h1 {
-    color: black;
-    text-align: center;
-}
-h1:hover{
-    color: red;
-}
-h2{
-    color: black;
-    text-align: center;
-}
-h2:hover{
-    color: red;
-}
-.img2{
-    align-items: center;
-    border: 10px solid;
-    background-color: pink;
-    
-}    
-.img3{
-    align-items: center;
-    border: 10px solid;
-    margin-left: 185px;
-    background-color: pink;
-}
-.img4{
-    align-items: center;
-    border: 10px solid;
-    margin-left: 150px;
-    background-color: pink;
 
+
+/* Header styles */
+h1 {
+    text-align: center;
 }
-.img5{
-    background-color: orange;
+
+h2, h3 {
+    margin: 5px 0;
+    text-align: center;
 }
-.img2:hover{
-    content: url(sup2.jpg);
+
+h2 {
+    color: black;
 }
-.img3:hover{
-    content: url(brasil2.jpg)
+
+h2:hover {
+    color: red;
 }
-.img4:hover{
-    content: url(fly2.jpg);
+
+h3 {
+    color: black;
 }
+
+/* Content box styles */
+.content {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+/* Index.html code */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Discount Banner Styles */
+.discount-banner {
+    background-color: gray;  
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.discount-banner .discount-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.discount-banner .discount-text p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Header container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #222; 
+    color: white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+}
+
+/* Header Container */
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Logo Styling */
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Navigation Bar Styling */
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-bar ul li a:hover {
+    background-color: #007bff; 
+    color: white;
+    border-radius: 5px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-bar ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+}
+
+
+.firstimg {
+    border: solid gray 5px;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+.firstimg:hover {
+   content: url(img1.png);
+}
+
+
+/* Button styles */
 .button {
     background-color: #007BFF;
     color: white;
@@ -66,7 +174,563 @@ h2:hover{
     transition: background-color 0.3s;
     font-size: 16px;
 }
+
 .button:hover {
     background-color: #0056b3;
+}
+
+/* Center alignment for specific elements */
+center {
+    display: block;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*CONTACT CODE */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background-color: #222;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-section h4 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #ffdd57;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer Content (Individual Columns) */
+.footer-content {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+}
+
+.footer-content ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-content ul li {
+    margin-bottom: 10px;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    list-style: none;
+}
+
+.social-icons li a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+    color: #ffdd57;
+}
+
+/* twicetreasured0_.html code*/
+.product-img1, .product-img2, .product-img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
+    border: 10px solid gray;
+    background-color: pink;
+}
+
+
+/* Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Discount Banner */
+.discount-banner {
+    background-color: #ff6f61; /* Eye-catching color */
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+
+.discount-banner h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Brand Logo Section */
+.brand-logo img {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Main Title */
+.main-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    margin: 20px 0;
+    margin-left: 15px;
+
+}
+
+/* Product Gallery */
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.product-img1 {  
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product-img2 {  
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.product-img3 {  
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Catchy Phrase */
+.catchphrase {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ff6f61;
+    margin: 20px 0;
+}
+
+/* Store Info */
+.store-info {
+    margin: 20px 0;
+}
+
+.store-info h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Call to Action Buttons */
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #ff6f61;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin: 0 15px;
+}
+
+.button:hover {
+    background-color: #e55b51;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .product-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title {
+        font-size: 28px;
+    }
+
+    .catchphrase {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+}
+/*IMAGE HOVER OF WEBPAGE 2*/
+.product-img1:hover{
+    content: url(sup2.jpg);
+}
+.product-img2:hover{
+    content: url(brasil2.jpg);
+}
+.product-img3:hover{
+    content: url(fly2.jpg);
+}
+
+/*CODE OF WEBPAGE 3*/
+
+/* Image styles */
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 10px solid gray;
+    background-color: pink;
+}
+
+.img1:hover {
+    content: url(pants1.1.jpg);
+}
+
+.img2:hover {
+    content: url(pants2.2.jpg);
+}
+
+.img3:hover {
+    content: url(pants3.3.jpg);
+}
+
+
+/* Body Styling */
+body {
+    background-color: #f9f3e4; 
+    color: #5f4b3a; 
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Main Heading */
+.main-title {
+    font-family: 'Lobster', cursive; 
+    font-size: 48px;
+    color: #9e2a2f; 
+    margin: 40px 0;
+}
+
+/* Product Section Styling */
+.quote {
+    font-size: 24px;
+    font-weight: 400;
+    color: #5f4b3a;
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.product-img {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-img:hover {
+    transform: scale(1.05); /* Subtle zoom effect on hover */
+}
+
+/* Thrift Shop Motto */
+.motto {
+    font-size: 28px;
+    font-weight: 600;
+    color: #6b4f31; 
+    margin: 40px 0; 
+}
+
+/* Store Info */
+.store-info {
+    margin: 20px 0;
+}
+
+.store-info h4 {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #7f6a3e; /* Vintage gold color */
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d8c77f; /* Lighter gold */
+    transform: translateY(-3px); /* Hover lift effect */
+}
+
+/* Product Image Hover Effect */
+.product-img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .product-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title {
+        font-size: 36px;
+    }
+
+    .motto {
+        font-size: 22px;
+    }
+
+    .button {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+}
+/* PORTFOLIO CODE*/
+
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #ecf0f1;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #bdc3c7;
+    margin-bottom: 20px;
+}
+
+.navigation-links {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation-links a {
+    display: block;
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px;
+    margin: 8px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-links a:hover {
+    background-color: #34495e;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: white;
+    min-height: 100vh;
+    transition: margin-left 0.3s ease;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    font-size: 18px;
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Projects Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+    margin-left: 90%;
+    
+}
+
+.project-card a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.project-card a:hover {
+    background-color: #2980b9;
+}
+
+/* Contact Section */
+.contact-info {
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #2980b9;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .main-content {
+        margin-left: 200px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 15px;
+    }
+
+    .main-content {
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .navigation-links a {
+        font-size: 16px;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card a {
+        padding: 10px;
+        font-size: 14px;
+    }
 }
 
